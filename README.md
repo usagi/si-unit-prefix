@@ -11,7 +11,7 @@ This library is ideal for simple Rust handling of SI unit prefixes.
 - `.as_f32()`: eg. `SiUnitPrefix::G.as_f32()` -> `1e+9f32`
 - `.as_exp()`: eg. `SiUnitPrefix::G.as_exp()` -> `9i8`
 - `.parse(str)`: eg. `SiUnitPrefix::parse_from_str("G")` -> `SiUnitPrefix::G`
-- with devies:
+- with derives:
   - `serde::Serialize`/`serde::Deserialize`
   - `Clone`/`Copy`
   - `PartialEq`/`Eq`
