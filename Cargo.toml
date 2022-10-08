@@ -1,0 +1,17 @@
+[package]
+name = "si-unit-prefix"
+version = "1.0.0"
+edition = "2021"
+description = "SI Unit Prefix enum impl as_f64/f32, as_exp, parse_from_str with serde support."
+license = "MIT"
+authors = ["Usagi Ito / USAGI.NETWORK <the@usagi.network>"]
+repository = "https://github.com/usagi/si-unit-prefix/"
+categories = ["science"]
+documentation = "https://docs.rs/si-unit-prefix/"
+keywords = ["si", "unit", "prefix", "parse", "serde"]
+
+[dependencies]
+serde = { version = "1.0.145", features = ["derive", "rc"] }
+
+[dev-dependencies]
+serde_json = "1.0.85"
